@@ -235,5 +235,30 @@ border-radius:200px;
  width:500px;
  left: 215px;
  top: 75px;
- 
+}
+
+
+.SustCop{
+ position:relative;
+ bottom:1500px;
+ color: white;
+ font-size: 60px;
+ text-align: center;
+}
+
+.SustCop1{
+ position: relative;
+ bottom:1540px;
+ color: white;
+ font-size: 60px;
+ text-align: center;
+}
+
+.SustCop2{
+ position: relative;
+ bottom:1580px;
+ text-align: center;
+ color: white;
+ font-size: 60px;
+
 }
