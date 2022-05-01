@@ -1,5 +1,6 @@
 .body{
  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .topnav{
@@ -14,12 +15,6 @@ margin-right: -8px;
 
 
 
-
-.container{
- display: inline-block;
- cursor: pointer;
-}
-
 .logo{
  size: -10px;
  margin-left:-600px; 
@@ -33,17 +28,24 @@ margin-right: -8px;
 }
 
 
+.container{
+ display: inline-block;
+ cursor: pointer;
+}
+
+
+
 .bar1, .bar2, .bar3{
  width:35px;
  height: 4px;
  background-color: white;
  margin: 6px 1080px ;
- transition: 0.2s;
+ transition: 0.4s;
  
 }
 
 .change .bar1{
- -webkit-transform: rotate(-45deg) translate(-9px 6px);
+ -webkit-transform: rotate(-90deg) translate(-9px 6px);
  transform: rotate(-45deg) translate(-9px 6px);
 }
 
@@ -59,7 +61,6 @@ margin-right: -8px;
 .hero{
  height: max-content;
  margin-right: 100px; 
-
 }
 
 .herobg{
@@ -114,7 +115,7 @@ width:250px;
 position: relative;
 bottom: 650px;
 right:-280px;
-border: 3px solid black;
+border: 2px solid black;
 border-radius:200px;
 
 
@@ -125,7 +126,7 @@ border-radius:200px;
  position: relative;
  bottom: 650px;
  right: -580px;
- border: 3px solid black;
+ border: 2px solid black;
  border-radius: 200px;
 }
 
@@ -134,7 +135,105 @@ border-radius:200px;
  position: relative;
  bottom: 650px;
  right: -880px;
- border: 3px solid black;
+ border: 2px solid black;
  border-radius: 200px;
 
+}
+
+.navbutleft{
+ background-color: rgb(218, 37, 37);
+ border: none;
+ margin: 4px 2px;
+ display: inline-block;
+ border-radius: 1000%;
+ height: 55px;
+ width:60px;
+ position: relative;
+ bottom: 760px;
+ right:695px; 
+ cursor: pointer;
+ 
+}
+
+.triangle-left{
+ width:0;
+ height:0;
+ position: relative;
+ left: 100px;
+ bottom: 805px;
+ border-top: 15px solid transparent;
+ border-right: 15px solid white;
+ border-bottom: 15px solid transparent;
+ cursor: pointer;
+}
+
+.navbutright{
+ background-color: rgb(218, 37, 37);
+ border:none;
+ margin: 4px 2px;
+ display: inline-block;
+ border-radius: 1000%;
+ height:55px;
+ width:60px;
+ position:relative;
+ bottom: 760px;
+ left: 920px;
+ cursor: pointer;
+}
+
+.triangle-right{
+ width:0;
+ height:0;
+ position:relative;
+ left:1790px;
+ bottom: 835px;
+ border-top:15px solid transparent;
+ border-left: 15px solid white;
+ border-bottom: 15px solid transparent;
+ cursor:pointer;
+ }
+
+.ordernow{
+ background-color: red;
+ border:none;
+ padding: 10px 10px;
+ position: relative;
+ bottom: 1210px;
+ left: 855px;
+ cursor: pointer;
+ font-size: 30px;
+ border-radius: 40px;
+ text-align: center;
+}
+
+.ord{
+ color: azure;
+ 
+}
+
+.factory{
+ position: relative;
+ right: 250px;
+ bottom:250px ;
+ background: contain;
+ width: 1000px;
+
+}
+
+.factlogobg{
+ position: relative;
+ background: contain;
+ background-color: black;
+ width: 950px;
+ height: 660px;
+ left: 964px;
+ bottom: 957px;
+}
+
+.factlogo{
+ position:relative;
+ width:500px;
+ left: 215px;
+ top: 75px;
+ 
 }
