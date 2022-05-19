@@ -268,3 +268,21 @@ border-radius:200px;
  width:1000px;
  color:black;
 }
+
+.empcard{
+ position:relative;
+ bottom:1150px;
+ width: 700px;
+ height:400px;
+ left: 100px; 
+ border-radius: 14px;
+}
+
+.custcard{
+ position: relative;
+ bottom: 1150px;
+ left:400px;
+ width: 600px;
+ height: 400px;
+ border-radius: 14px;
+}
