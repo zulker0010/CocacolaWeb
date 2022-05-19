@@ -242,7 +242,7 @@ border-radius:200px;
  position:relative;
  bottom:1500px;
  color: white;
- font-size: 60px;
+ font-size: 70px;
  text-align: center;
 }
 
@@ -250,7 +250,7 @@ border-radius:200px;
  position: relative;
  bottom:1540px;
  color: white;
- font-size: 60px;
+ font-size: 70px;
  text-align: center;
 }
 
@@ -259,7 +259,7 @@ border-radius:200px;
  bottom:1580px;
  text-align: center;
  color: white;
- font-size: 60px;
+ font-size: 70px;
 }
 
 .campaigns{
@@ -287,4 +287,19 @@ border-radius:200px;
  border-radius: 14px;
 }
 
-.
+.campaigns{
+ width: 2000px;
+ height: 1080px;
+ background-color:black;
+ position:relative;
+ bottom: 1000px;
+ right:100px;
+}
+
+.cop1{
+color: azure;
+position: relative;
+left:650px;
+font-size: 80px;
+
+}
