@@ -289,7 +289,7 @@ border-radius:200px;
 
 .campaigns{
  width: 2000px;
- height: 1080px;
+ height: 2080px;
  background-color:black;
  position:relative;
  bottom: 1000px;
@@ -301,5 +301,37 @@ color: azure;
 position: relative;
 left:650px;
 font-size: 80px;
+}
+
+
+.camcop{
+ font-size: 90px;
+ color: azure;
+ position: relative;
+ left:250px;
+ top: 250px;
+}
+
+.oh{
+ width: 500px;
+ height: 400px; 
+ position:relative;
+ left:250px;
+ top:350px;
+}
+
+.summercamp{
+ position:relative;
+ left: 380px;
+ top:350px;
+ width: 500px;
+ height: 400px
+}
+
+.zerosug{
+width: 400px;
+position:relative;
+left: 500px;
+top:350px;
 
 }
